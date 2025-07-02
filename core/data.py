@@ -1,10 +1,9 @@
 import os
-import pandas as pd
-import simfin as sf
 import shutil
-from simfin.names import *
 from pathlib import Path
 
+import pandas as pd
+import simfin as sf
 
 SIMFIN_TOKEN = os.getenv("SIMFIN_KEY")
 sf.set_api_key(SIMFIN_TOKEN)

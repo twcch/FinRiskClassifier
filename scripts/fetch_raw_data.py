@@ -5,9 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import json
 import argparse
-from pathlib import Path
 from core.data import *
-
 
 RAW_DATA_PATH = Path("data/raw/")
 
